@@ -1,7 +1,5 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 
-
-
 #[macro_use] extern crate rocket;
 
 use controller::{turn_on, turn_off};
