@@ -1,12 +1,9 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 
-
-
 #[macro_use] extern crate rocket;
 
 use controller::{turn_on, turn_off};
 use rocket::request::Form;
-use rocket::http::RawStr;
 use rocket::response::content::Html;
 pub mod controller;
 
